@@ -1,0 +1,19 @@
+{
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true
+  },
+  "go.formatTool": "gofmt", // 可选：gofmt/gofumpt/goimports
+  "go.useLanguageServer": true, // 启用 Go 语言服务器（增强智能提示）
+  // Vue 文件关联
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  // 保存时自动格式化
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Volar 接管 TS 服务（禁用 Vetur）
+  "vue.volar.tsPlugin": true,
+  "vue.volar.jsx": true,
+  "vetur.enabled": false // 如安装过 Vetur 需禁用
+}
